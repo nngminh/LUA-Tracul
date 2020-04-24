@@ -23,18 +23,25 @@
 }
 
 
-.menu
-{height:100px;padding-top:28px;}
 .menu ul li
-{list-style:none;width:100%;}
+{
+	list-style: none;
+	line-height:110px
+}
 .menu ul li .fa
-{color:#4d4d4d}
-.menu ul li :hover
-{color: #ffcc00}
+{font-size: 20pt;}
+div.menu img:hover
+{visibility: hidden;}
 .navigator
-{height:100px;visibility:visible;}
+{visibility:visible;}
 div.navigator ul li
-{list-style:none;float:left;line-height:80px;font-family: bebas;margin-right:22px;}
+{
+	list-style:none;
+	float:left;
+	line-height:105px;
+	font-family: bebas;
+	margin-right:22px;
+}
 div.navigator ul
 {margin:0;padding:0;}
 ul li a
@@ -46,13 +53,19 @@ ul li a:hover
 .logo img
 {width:40%;}
 .blank
-{height:100px;}
+{height:50px;}
 .sign
-{height:100px;}
+{height:86px;}
 .sign ul li
-{list-style:none;text-align:right;line-height:150px;font-family:bebas;visibility:visible;}
+{
+	list-style:none;
+	text-align:right;
+	line-height:105px;
+	font-family:bebas;
+	visibility:visible;
+}
 .sign ul
-{marign-right:25px;padding:0;}
+{margin-right: 25px;padding:0;}
 
 
 
