@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in/up</title>
+	<link a href="css/sign.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css" integrity="" >
+	<script src="js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div class="container-fluid">
+		<div class="row" style="position: sticky;top: 0">
+			<div class="col-lg-1 col-sm-2 col-xs-2 menu">
+				<ul><li><a href="list.html"><i class="fa fa-bars"></i></a></li></ul>
+			</div>
+			<div class="col-lg-4 col-sm-2 col-xs-2 navigator">
+				<ul>
+					<li><a href="index.html">Trang chủ</a></li>
+					<li><a href="aboutus.html">Về chúng tôi</a></li>
+					<li><a href="support.html">Đóng góp</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-sm-4 col-xs-4 logo"><center><img src="images/LOGO.png"></center></div>
+			<div class="col-lg-3 col-sm-2 col-xs-2 blank"></div>
+			<div class="col-lg-2 col-sm-2 col-xs-2 sign">
+				<ul>
+					<li><a href="sign.html">Đăng nhập</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="col-lg-12 col-sm-12 col-xs-12 blank"></div>
+			<div class="col-lg-7 col-sm-10 col-xs-12 container" id="container">
+				<div class="form-container sign-up-container">
+				<form action="#">
+					<h1>Tạo tài khoản</h1>
+					<div class="social-container">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+					</div>
+					<span>Hoặc dùng email để tiến hành đăng ký</span>
+					<input type="text" placeholder="Tên người dùng" />
+					<input type="email" placeholder="Email" />
+					<input type="password" placeholder="Mật khẩu" />
+					<button href="" style="border-radius: 50px;">Đăng ký</button>
+					<div class="option">
+						<span>Có tài khoản rồi thì </span>
+						<a href="#" style="font-family:averta;color: #ffcc00;font-size: 12pt; text-decoration: none"><b>Đăng nhập</b></a>
+						<span>ở đây nè !</span>
+						</div>
+				</form>
+				</div>
+				
+				<div class="form-container sign-in-container">
+					<form action="#">
+						<h1>Đăng nhập</h1>
+						<div class="social-container">
+							<a href="#"><i class="fab fa-facebook-f"></i></a> 
+							<a href="#"><i class="fab fa-google-plus-g"></i></a> 
+							<a href="#"><i class="fab fa-twitter"></i></a></div>
+						<span>Hoặc đăng nhập bằng tài khoản của bạn</span>
+		  				<input type="email" placeholder="Email" />
+						<input type="mật khẩu" placeholder="Mật khẩu" />
+						<a href="#" style="color: #333; font-family: avertalight;text-decoration: none;">Quên mật khẩu ?</a>
+						<button href="" style="border-radius: 50px;">Đăng nhập</button>
+						<div class="option">
+						<span>Bạn chưa có tài khoản?</span>
+						<a href="#" style="font-family:averta;color: #ffcc00;font-size: 12pt; text-decoration: none"><b>Đăng ký ngay</b></a>
+						</div>
+					</form>
+				</div>
+				
+				<div class="overlay-container">
+					<div class="overlay">
+						<div class="overlay-panel overlay-left">
+							<h2 style="font-family: bebas;font-size:30pt">Welcome Back!</h2>
+							<p>Đăng nhập để cùng tiếp tục khám phá về các lễ hội tại đất nước hình chữ S của chúng ta nhé !</p>
+							<button class="ghost" id="signIn" style="border-radius: 50px;">Đăng nhập</button>
+						</div>
+						<div class="overlay-panel overlay-right">
+							<h2 style="font-family: bebas;font-size:30pt">Hello, Friend!</h2>
+							<p>Hãy nhập hội để cùng tìm hiểu về các lễ hội tại đất nước Việt Nam xinh yêu này nào !</p>
+							<button class="ghost" id="signUp" style="border-radius: 50px;">Đăng ký</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="col-lg-1 col-sm-11 col-xs-11 order-lg-1 order-2 text"></div>
+			 
+			<div class="col-lg-1 col-sm-1 col-xs-1 order-lg-2 order-1 bar" style="position: fixed;right: 0;top:166px">
+				<center>
+					<div class="icon">
+						<ul>
+						  <li><a href="timkiem.html"><em class="fa fa-search"></em></a></li>
+						  <li><a href="lich.html"><em class="fa fa-calendar"></em></a></li>
+						  <li><a href="giohang.html"><em class="fa fa-shopping-cart"></em></a></li>
+						</ul>
+					</div><br>
+				<div class="step">
+					<img src="images/LINE.png" style="width:70%;height:0.8%"><br>
+				</div>
+				<div class="page">01/04</div></center>
+			</div>
+			
+			
+		</div>	
+		
+		
+	</div>
+	
+	
+</body>
+</html>
+
+
+<script src="js/sign.js" integrity=""></script>
+

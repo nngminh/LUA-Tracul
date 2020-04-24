@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family:bebas;
+	src:url("../bebas/SVN-BEBAS NEUE BOLD.TTF");
+}
+@font-face
+{
+	font-family:averta;
+	src:url("../Averta/Averta-Regular.otf");
+}
+@font-face
+{
+	font-family:nexabook;
+	src:url("../NEXA font/Nexa-Book.ttf");
+}
+@font-face
+{
+	font-family:avertalight;
+	src:url("../averta/Averta-Light.otf");
+}
+
+.menu
+{height:100px;padding-top:33px;}
+div.menu img:hover
+{visibility: hidden;}
+.navigator
+{height:100px;visibility:visible;}
+div.navigator ul li
+{list-style:none;float:left;line-height:80px;font-family: bebas;margin-right:22px;}
+div.navigator ul
+{margin:0;padding:0;}
+ul li a
+{font-size:14pt;text-decoration:none;color:#161616;}
+ul li a:hover
+{color:#FFCC00;text-decoration:none;}
+.logo
+{height:100px;line-height:94px;}
+.logo img
+{width:40%;}
+.blank
+{height:100px;}
+.sign
+{height:100px;}
+.sign ul li
+{list-style:none;text-align:right;line-height:150px;font-family:bebas;visibility:visible;}
+.sign ul
+{marign-right:25px;padding:0;}
+
+
+
+
+.back
+{height:630px;visibiity:visible;}
+a.trolai
+{font-family:avertalight;text-decoration:none;color:#161616;font-size:12pt;margin-top:100px;float:right;}
+a.trolai:hover
+{color:#161616;text-decoration:none;}
+.arrow
+{width:100%;float:right;}
+
+
+.lich
+{font-family:bebas;font-size:80pt;text-align:right;line-height:100px;padding-top:90px;}
+
+
+.time
+{padding-top:65px;}
+.caption
+{font-family:nexabook;}
+.date
+{padding:20px 0 0 0;}
+tr
+{text-align:center;}
+tr th
+{padding:10px;}
+tr td
+{padding:20px;}
+tr td.special
+{background-color:#FFD700;}
+tr td.special:hover
+{transform:scale(1.1);}
+tr td .number
+{color:#161616;text-decoration:none;}
+
+
+
+.new
+{margin:0;padding:160px 0 0 0;}
+button
+{}
+textarea
+{font-size:14pt;width:270px;height:200px;overflow:hidden;visibility:visible;}
+
+
+
+div.bar div.icon img:hover
+{visibility: hidden;}
+.icon
+{height:150px;margin: auto 0}
+.icon ul li
+{list-style: none; margin: 10px 0 20px 0; width: 100%;}
+.icon ul li .fa
+{ color:#4d4d4d}
+.icon ul li :hover {color: #ffcc00}
+.step
+{height:5px;float: right;}
+.page
+{text-align:center;padding-top:100px;}
+.page a
+{font-family:nexabook;color:#161616;font-size:7pt;text-decoration:none;letter-spacing:8px;writing-mode:vertical-rl;}
+.page a:hover
+{color:#161616;text-decoration:none;}
+
+
+
+@media only screen and (max-width:768px)
+{
+	.navigator
+	{visibility:hidden;}
+	.sign ul li
+	{visibility:hidden;}
+	.back
+	{visibility:hidden;}
+	.bar
+	{visibility:hidden;}
+	.new textarea
+	{visibility:hidden;}
+	
+}
+
+
+
+
+@media only screen and (max-width:576px)
+{
+	.navigator
+	{visibility:hidden;}
+	.sign ul li
+	{visibility:hidden;}
+	.back
+	{visibility:hidden;}
+	.bar
+	{visibility:hidden;}
+	.new textarea
+	{visibility:hidden;}
+	
+}
+
+

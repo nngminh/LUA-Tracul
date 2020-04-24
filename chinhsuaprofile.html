@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link a href="css/chinhsuaprofile.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css" integrity="" >
+	<script src="js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script>
+	<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+	
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-1 col-md-2 col-sm-2 menu">
+				<ul><li><a href="list.html"><i class="fa fa-bars"></i></a></li></ul>
+			</div>
+			<div class="col-lg-4 col-md-2 col-sm-2 navigator">
+				<ul>
+					<li><a href="index.html">Trang chủ</a></li>
+					<li><a href="aboutus.html">Về chúng tôi</a></li>
+					<li><a href="support.html">Đóng góp</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 logo"><center><img src="images/LOGO.png"></center></div>
+			<div class="col-lg-3 col-md-2 col-sm-2 blank"></div>
+			<div class="col-lg-2 col-md-2 col-sm-2 sign">
+				<ul>
+					<li><a class="hello" href="">Đăng nhập</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		<div class="row">
+			<div class="col-lg-1 col-md-12 col-sm-12 back">
+				<a class="trolai" href="#">Trở lại</a><br>
+				<img class="arrow" src="images/ARROW (left).png">
+			</div>
+			
+			
+			<div class="col-lg-10 col-md-12 col-sm-12 content">
+				<a class="name">Profile</a>
+				<center>
+					<div class="wrapper">
+						<div class="write">
+							<input type="text" placeholder="Tên người dùng"/>
+							<input type="email" placeholder="Email"/>
+						</div>
+						<div class="gender">
+  							<input type="radio" id="male" name="gender" value="male">
+  							<label for="male">Nam</label><br>
+  							<input type="radio" id="female" name="gender" value="female">
+  							<label for="female">Nữ</label><br>
+  							<input type="radio" id="other" name="gender" value="other">
+  							<label for="other">Khác</label>
+						</div>
+						<div class="line">
+							<img src="images/LINE.png" style="width:63%;height:1px;">
+						</div>
+						
+						<div class="change">
+							<input type="radio" id="change" name="change" value="change">
+  							<label for="change">Đổi mật khẩu</label>
+						</div>
+						<div class="pass">
+							<p id="pass" style="display:none;">
+								<input type="password" id="currentPass" name="currentpass" class="commanClass" placeholder="Mật khẩu cũ">
+								<i onclick="show('currentPass')" class="fas fa-eye-slash" id="display01"></i><br>
+								<input type="password" id="newPass" name="newpass" required="required" class="commanClass" placeholder="Mật khẩu mới">
+								<i onclick="show('newPass')" class="fas fa-eye-slash" id="display02"></i><br>
+								<input type="password" id="confirm_password" required="required" placeholder="Lặp lại">
+								<i onclick="show('confirm_password')" class="fas fa-eye-slash" id="display03"></i>
+							</p>
+						</div>
+						<button>Lưu</button>
+					</div>
+				</center>
+				
+				
+				<script>
+					$(document).ready(function(){
+						$("#open"),click(function(){
+							$("input").attr("type","pasword");
+							$(this).hide();
+							$("#close").show();
+							
+						});
+					});
+					
+					$(document).ready(function(){
+						$("#close"),click(function(){
+							$("input").attr("type","text");
+							$(this).hide();
+							$("#open").show();
+							
+						});
+					});
+					
+					
+					$(document).ready(function(){
+						$("#change").click(function(){
+    						$("#pass").toggle();
+						});
+					});
+				</script>
+				
+				<script>
+					function show(a) {
+						var x=document.getElementById(a);
+						var c=x.nextElementSibling
+						if (x.getAttribute('type') == "password") {
+							c.removeAttribute("class");
+							c.setAttribute("class","fas fa-eye");
+							x.removeAttribute("type");
+							x.setAttribute("type","text");
+						} else {
+							x.removeAttribute("type");
+							x.setAttribute('type','password');
+							c.removeAttribute("class");
+							c.setAttribute("class","fas fa-eye-slash");
+						}
+					}
+				</script>
+				
+			</div>
+			
+			
+			<div class="col-md-1 d-none d-md-block order-5 bar" style="position: fixed;top: 120px; right: 0">
+			  <center>
+				  <div class="icon">
+					  <ul>
+						  <li><a href="timkiem.html"><em class="fa fa-search"></em></a></li>
+						  <li><a href="lich.html"><em class="fa fa-calendar"></em></a></li>
+						  <li><a href="giohang.html"><em class="fa fa-shopping-cart"></em></a></li>
+						</ul>
+				  </div><br>
+				  <div class="step">
+					  <img src="images/LINE.png" style="width:70%;"></div><br>
+				</center>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+<script src="js/chinhsua.js"></script>

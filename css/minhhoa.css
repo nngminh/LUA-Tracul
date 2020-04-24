@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family:bebas;
+	src:url("../BEBAS/SVN-BEBAS NEUE BOLD.TTF");
+}
+@font-face
+{
+	font-family:averta;
+	src:url("../Averta/Averta-Regular.otf");
+}
+@font-face
+{
+	font-family:nexabook;
+	src:url("../NEXA font/Nexa-Book.ttf");
+}
+@font-face
+{
+	font-family:avertalight;
+	src:url("../averta/Averta-Light.otf");
+}
+
+
+.menu
+{height:86px;padding-top:33px;}
+div.menu img:hover
+{visibility: hidden;}
+.navigator
+{visibility:visible;}
+div.navigator ul li
+{list-style:none;float:left;line-height:80px;font-family: bebas;margin-right:22px;}
+div.navigator ul
+{margin:0;padding:0;}
+ul li a
+{font-size:14pt;text-decoration:none;color:#161616;}
+ul li a:hover
+{color:#FFCC00;text-decoration:none;}
+.logo
+{line-height:94px;}
+.logo img
+{width:40%;}
+.blank
+{height:86px;}
+.sign
+{height:86px;}
+.sign ul li
+{list-style:none;text-align:right;line-height:150px;font-family:bebas;visibility:visible;}
+.sign ul
+{marign-right:25px;padding:0;}
+
+
+.back
+{height:490px;visibiity:visible;}
+a.trolai
+{font-family:avertalight;text-decoration:none;color:#161616;font-size:12pt;margin-top:100px;float:right;}
+a.trolai:hover
+{color:#161616;text-decoration:none;}
+.arrow
+{width:100%;float:right;}
+
+
+
+.new
+{height:490px;}
+.new img
+{height:90%;width:100%;margin:0;float:right;}
+
+
+
+.text
+{height:490px;}
+a.gioto
+{text-decoration:none;color:#161616;font-family:bebas;font-size:30pt;}
+a.gioto:hover
+{text-decoration:none;color:#161616;}
+a.ngay
+{text-decoration:none;color:#161616;font-family:nexabook;font-size:10pt;}
+a.ngay:hover
+{text-decoration:none;color:#161616;}
+.buy
+{margin-top:20px;}
+.giohang , .muangay
+{border:thin solid #ffcc00;margin:0 20px 0 0;font-size:12pt;font-family:averta;text-align:center;border-radius:20px;padding:0 14px 0 14px;}
+.giohang , .giohang:hover
+{background-color:white;color:#FECD08;text-decoration:none;}
+.muangay , .muangay:hover
+{background-color:#FECD08;color:white;text-decoration:none;}
+.info
+{width:270px;height:170px;font-family:averta;font-size:12pt;text-decoration:none;color:#161616;}
+.thanhtoan
+{margin-top:20px;width:270px;height:100px;font-family:averta;font-size:12pt;text-decoration:none;color:#161616;visibility:visible;}
+
+
+.bar
+{height:490px;visibility:visible;}
+div.bar div.icon img:hover
+{visibility: hidden;}
+.icon
+{height:150px;margin: auto 0;}
+.icon ul li
+{list-style: none; margin: 10px 0 20px 0; width: 100%;}
+.icon ul li .fa
+{ color:#4d4d4d;}
+.icon ul li :hover {color: #ffcc00;}
+.step
+{height:10px;float: right;}
+.page
+{height:204px;font-family:nexabook;color:#161616;font-size:10pt;letter-spacing:8px;writing-mode:vertical-rl;}
+
+
+
+
+
+.op
+{height:140px;}
+.op img
+{height:80px;width:80px;margin:0 30px 0 0;object-fit: cover;}
+.op img:hover
+{transform: scale(0.95);transition:scale 0.5s ease-in;}
+
+
+
+
+
+@media only screen and (max-width:768px)
+{
+	.menu
+	{height:45px;padding-top:20px;}
+	.navigator
+	{height:45px;background-color:white;visibility:hidden;}
+	.logo
+	{height:45px;line-height:60px;}
+	.logo img
+	{width:30%;}
+	.blank
+	{height:45px;}
+	.sign
+	{height:45px;}
+	.sign ul li
+	{visibility:hidden;line-height:0;}
+	
+	.back
+	{height:300px;visibility:hidden;}
+	.new
+	{height:360px;}
+	.new img
+	{height:90%;width:100%;}
+	
+	
+	.text
+	{height:300px;}
+	.info
+	{height:80px;width:600px;font-size:12pt;}
+	.thanhtoan
+	{visibility:hidden;}
+	
+
+	.bar
+	{height:300px;visibility:hidden;}
+	
+	
+	.op
+	{margin-left:0;}	
+	.pic02
+	{width:20%;height:100%;}
+		
+}
+
+
+@media only screen and (max-width:576px)
+{	
+	.menu
+	{height:30px;padding-top:0;}
+	.navigator
+	{height:30px;visibility:hidden;}
+	.logo
+	{height:30px;}
+	.logo img
+	{width:30%;}
+	.blank
+	{height:30px;}
+	.sign
+	{height:30px;}
+	.sign ul li
+	{visibility:hidden;line-height:0;}
+	
+	
+	
+	.back
+	{height:0;visibility:hidden;}
+	.new
+	{height:360px;}
+	.pic01
+	{height:90%;width:100%;}
+	
+	
+	.text
+	{height:300px;}
+	.info
+	{height:70px;width:525px;font-size:10pt;}
+	.thanhtoan
+	{visibility:hidden;}
+	
+	
+
+	.bar
+	{height:0;visibility:hidden;}
+	.op
+	{margin-left:0;}	
+	.pic02
+	{width:18%;height:70%;}
+		
+}
+
